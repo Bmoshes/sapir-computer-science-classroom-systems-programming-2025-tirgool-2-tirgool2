@@ -5,7 +5,7 @@ public class Truck extends Vehicle implements Driveable {
 
     @Override
     public void startEngine() {
-        System.out.println("Truck engine started.");
+        System.out.println("Truck engine started .");
     }
 
     @Override

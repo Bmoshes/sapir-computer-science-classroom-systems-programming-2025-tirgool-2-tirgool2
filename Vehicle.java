@@ -8,6 +8,21 @@ public abstract class Vehicle {
     }
 
     public abstract void startEngine();
+     
+    public String getBrand() {
+        return brand;
+    }
 
-    // Getters and setters omitted for students to implement
+    public int getYear() {
+        return year;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
 }
