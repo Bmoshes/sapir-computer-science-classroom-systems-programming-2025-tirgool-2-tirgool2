@@ -10,6 +10,6 @@ public class Motorcycle extends Vehicle implements Driveable {
 
     @Override
     public void drive() {
-        System.out.println("Riding the motorcycle...");
+        System.out.println("Riding the motorcycle....");
     }
 }
