@@ -6,7 +6,6 @@ public abstract class Vehicle {
         this.brand = brand;
         this.year = year;
     }
-
     public abstract void startEngine();
      
     public String getBrand() {
